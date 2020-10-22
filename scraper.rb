@@ -15,8 +15,11 @@ class Legislature
       url[/ID=(\d+)/, 1]
     end
 
+    # in "Firstname Lastname" format
+    #   this will do the wrong thing if there are too many parts, but
+    #   can be fixed kui that arises
     field :name do
-      link.text
+      display_name.split(/\s+/).reverse.join(' ')
     end
 
     private
@@ -27,6 +30,11 @@ class Legislature
 
     def url
       link.attr('href')
+    end
+
+    # in "Lastname Firstname" format
+    def display_name
+      link.text
     end
   end
 
