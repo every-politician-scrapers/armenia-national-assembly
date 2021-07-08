@@ -1,12 +1,7 @@
 #!/bin/env ruby
 # frozen_string_literal: true
 
-require 'csv'
-require 'scraped'
-
-# require 'pry'
-# require 'open-uri/cached'
-# OpenURI::Cache.cache_path = '.cache'
+require_relative '../../lib/scraper_data'
 
 class Legislature
   # details for an individual member
@@ -46,11 +41,4 @@ class Legislature
   end
 end
 
-url = 'http://www.parliament.am/deputies.php?lang=eng'
-data = Legislature::Members.new(response: Scraped::Request.new(url: url).response).members
-
-header = data.first.keys.to_csv
-rows = data.map { |row| row.values.to_csv }
-abort 'No results' if rows.count.zero?
-
-puts header + rows.join
+puts ScraperData.new('http://www.parliament.am/deputies.php?lang=eng').csv
