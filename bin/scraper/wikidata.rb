@@ -57,7 +57,7 @@ memberships_query = <<SPARQL
 SPARQL
 
 url = WIKIDATA_SPARQL_URL % CGI.escape(memberships_query)
-headers = { 'User-Agent' => 'every-politican-scrapers/finland-eduskunta' }
+headers = { 'User-Agent' => 'every-politican-scrapers/armenia-national-assembly' }
 data = Results.new(response: Scraped::Request.new(url: url, headers: headers).response).members
 
 header = data.first.keys.to_csv
