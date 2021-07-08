@@ -1,7 +1,7 @@
 #!/bin/env ruby
 # frozen_string_literal: true
 
-require_relative '../../lib/scraper_data'
+require 'every_politician_scraper/scraper_data'
 
 class Legislature
   # details for an individual member
@@ -41,4 +41,4 @@ class Legislature
   end
 end
 
-puts ScraperData.new('http://www.parliament.am/deputies.php?lang=eng').csv
+puts EveryPoliticianScraper::ScraperData.new('http://www.parliament.am/deputies.php?lang=eng').csv
