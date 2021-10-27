@@ -8,7 +8,9 @@ module.exports = function () {
     WHERE
     {
       ?item p:P39 ?statement .
+      FILTER NOT EXISTS { ?statement wikibase:rank wikibase:DeprecatedRank }
       ?statement ps:P39 wd:${meta.legislature.member} ; pq:P2937 wd:${meta.legislature.term.id} .
+
 
       OPTIONAL { ?statement pq:P4100 ?groupitem }
       OPTIONAL { ?statement pq:P768 ?district }
