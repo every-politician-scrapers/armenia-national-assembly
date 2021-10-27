@@ -1,0 +1,7 @@
+ordinal,item,itemLabel,inception,inceptionPrecision,startTime,startTimePrecision,abolished,abolishedPrecision,endTime,endTimePrecision,replaces,replacesLabel,replacedBy,replacedByLabel,follows,followsLabel,followedBy,followedByLabel
+1,Q100715811,1st Convocation of the National Assembly of Armenia,,,,,,,,,,,,,,,,
+4,Q97143400,4th Convocation of the National Assembly of Armenia,2007-01-01,9,,,2012-01-01,9,,,,,,,,,Q31013903,5th Convocation of the National Assembly of Armenia
+5,Q31013903,5th Convocation of the National Assembly of Armenia,2012-05-31,11,,,2017-03-02,11,,,,,,,Q97143400,4th Convocation of the National Assembly of Armenia,Q31013959,6th Convocation of the National Assembly of Armenia
+6,Q31013959,6th Convocation of the National Assembly of Armenia,2017-05-18,11,,,2018-11-01,11,,,Q31013903,5th Convocation of the National Assembly of Armenia,Q61165268,7th Convocation of the National Assembly of Armenia,Q31013903,5th Convocation of the National Assembly of Armenia,,
+7,Q61165268,7th Convocation of the National Assembly of Armenia,2019-01-14,11,,,2021-06-01,10,,,Q31013959,6th Convocation of the National Assembly of Armenia,Q108936294,8th Convocation of the National Assembly of Armenia,Q31013959,6th Convocation of the National Assembly of Armenia,,
+8,Q108936294,8th Convocation of the National Assembly of Armenia,2021-06-01,10,,,,,,,Q61165268,7th Convocation of the National Assembly of Armenia,,,,,,
