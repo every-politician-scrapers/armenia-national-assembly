@@ -4,7 +4,7 @@ let meta = JSON.parse(rawmeta);
 
 module.exports = function () {
   return `SELECT ?item ?name ?groupitem ?group ?district ?constituency ?gender ?dob ?dobPrecision
-         (STRAFTER(STR(?statement), '/statement/') AS ?psid)
+         ?source (STRAFTER(STR(?statement), '/statement/') AS ?psid)
     WHERE
     {
       ?item p:P39 ?statement .
