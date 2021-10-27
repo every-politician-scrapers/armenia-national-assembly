@@ -41,4 +41,5 @@ class Legislature
   end
 end
 
-puts EveryPoliticianScraper::ScraperData.new('http://www.parliament.am/deputies.php?lang=eng').csv
+file = Pathname.new 'html/official.html'
+puts EveryPoliticianScraper::FileData.new(file, klass: Legislature::Members).csv

@@ -1,0 +1,23 @@
+{
+    "jurisdiction": {
+      "name": "Armenia",
+      "id": "Q399"
+    },
+    "legislature": {
+      "id": "Q1337463",
+      "member": "Q17277248",
+      "term": {
+        "id": "Q108936294",
+        "start": "2021-06"
+      }
+    },
+    "source": {
+        "url":   "http://www.parliament.am/deputies.php?lang=eng",
+        "title": "MEMBERS OF THE NATIONAL ASSEMBLY OF THE REPUBLIC OF ARMENIA EIGHTH CONVOCATION",
+        "lang":  {
+            "code": "en",
+            "wikidata": "Q1860"
+        }
+    },
+    "agent": "every-politican-scrapers/armenia-national-assembly"
+}
