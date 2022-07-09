@@ -2,7 +2,6 @@ id,name
 1440,Alen Simonyan
 1459,Hakob Arshakyan
 1453,Ruben Rubinyan
-1433,Ishkhan Saghatelyan
 1452,Tigran Abrahamyan
 1468,Eduard Aghajanyan
 1510,Hovik Aghazaryan
@@ -16,11 +15,9 @@ id,name
 1536,Sergey Bagratyan
 1520,Rustam Bakoyan
 1507,Zaruhi Batoyan
-1513,Anush Begloian
 1475,Armen Charchyan
 1493,Davit Danielyan
 1445,Arpine Davoyan
-1488,Artur Davtyan
 1519,Sisak Gabrielyan
 1512,Vilen Gabrielyan
 1443,Lilit Galstyan
@@ -36,6 +33,7 @@ id,name
 1458,Artur Ghazinyan
 1435,Anna Grigoryan
 1495,Hripsime Grigoryan
+1545,Martun Grigoryan
 1500,Narek Grigoryan
 1542,Edgar Hakobyan
 1498,Hasmik Hakobyan
@@ -79,10 +77,12 @@ id,name
 1531,Kristine Poghosyan
 1490,Mariam Poghosyan
 1446,Armen Rustamyan
+1433,Ishkhan Saghatelyan
 1522,Aleksey Sandikov
 1486,Artur Sargsyan
 1530,Hayk Sargsyan
 1521,Trdat Sargsyan
+1546,Karen Sarukhanyan
 1474,Ashot Simonyan
 1471,Hripsime Stambulyan
 1509,Lilit Stepanyan
@@ -95,13 +95,13 @@ id,name
 1478,Hayk Tsirunyan
 1541,Mikayel Tumasyan
 1473,Babken Tunyan
-1436,Artur Vanetsyan
 1464,Aghvan Vardanyan
 1454,Elinar Vardanyan
 1460,Kristine Vardanyan
 1480,Tsovinar Vardanyan
 1503,Vladimir Vardanyan
 1483,Aram Vardevanyan
+1544,Gayane Yeghiazaryan
 1527,Arman Yeghoyan
 1444,Ishkhan Zakaryan
 1469,Mkhitar Zakaryan
